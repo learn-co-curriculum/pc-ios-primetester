@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D25870819BCCB0F00A55A18 /* mugen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9D25870619BCCB0F00A55A18 /* mugen.gif */; };
+		9D98823D19BC69CA00B790C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98823C19BC69CA00B790C6 /* AppDelegate.swift */; };
+		9D98823F19BC69CA00B790C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98823E19BC69CA00B790C6 /* ViewController.swift */; };
+		9D98824419BC69CA00B790C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D98824319BC69CA00B790C6 /* Images.xcassets */; };
+		9D98825A19BC69F600B790C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D98825919BC69F600B790C6 /* Main.storyboard */; };
+		9D98826719BC874C00B790C6 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98826619BC874C00B790C6 /* FlatButton.swift */; };
+		EA5789A01B20C5B100A9F7D1 /* almost_nailed_it.gif in Resources */ = {isa = PBXBuildFile; fileRef = EA57899F1B20C5B100A9F7D1 /* almost_nailed_it.gif */; };
+		EA5789A71B20C65E00A9F7D1 /* Gifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5789A61B20C65800A9F7D1 /* Gifu.framework */; };
+		EA5789A91B20C68B00A9F7D1 /* Gifu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA5789A61B20C65800A9F7D1 /* Gifu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA9299291AE99E2900E22976 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9299281AE99E2900E22976 /* Runes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5789A51B20C65800A9F7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5789A11B20C65800A9F7D1 /* Gifu.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00B8C73E1A364DA400C188E7;
+			remoteInfo = Gifu;
+		};
+		EA5789AA1B20C68B00A9F7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5789A11B20C65800A9F7D1 /* Gifu.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B8C73D1A364DA400C188E7;
+			remoteInfo = Gifu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00B8C7331A364D4C00C188E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EA5789A91B20C68B00A9F7D1 /* Gifu.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D25870519BCCB0F00A55A18 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D25870619BCCB0F00A55A18 /* mugen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mugen.gif; sourceTree = "<group>"; };
+		9D98823719BC69CA00B790C6 /* gifu-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gifu-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D98823C19BC69CA00B790C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = classes/AppDelegate.swift; sourceTree = "<group>"; };
+		9D98823E19BC69CA00B790C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = classes/ViewController.swift; sourceTree = "<group>"; };
+		9D98824319BC69CA00B790C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D98825919BC69F600B790C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9D98826619BC874C00B790C6 /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = classes/FlatButton.swift; sourceTree = "<group>"; };
+		EA57899F1B20C5B100A9F7D1 /* almost_nailed_it.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = almost_nailed_it.gif; sourceTree = "<group>"; };
+		EA5789A11B20C65800A9F7D1 /* Gifu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Gifu.xcodeproj; path = ../Gifu.xcodeproj; sourceTree = "<group>"; };
+		EA9299281AE99E2900E22976 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = ../Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D98823419BC69CA00B790C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9299291AE99E2900E22976 /* Runes.framework in Frameworks */,
+				EA5789A71B20C65E00A9F7D1 /* Gifu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D98822E19BC69CA00B790C6 = {
+			isa = PBXGroup;
+			children = (
+				EA92992C1AE9AB2100E22976 /* Frameworks */,
+				9D98823919BC69CA00B790C6 /* Source */,
+				9D98823819BC69CA00B790C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D98823819BC69CA00B790C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D98823719BC69CA00B790C6 /* gifu-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D98823919BC69CA00B790C6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D98823C19BC69CA00B790C6 /* AppDelegate.swift */,
+				9D98823E19BC69CA00B790C6 /* ViewController.swift */,
+				9D98826619BC874C00B790C6 /* FlatButton.swift */,
+				9D98825919BC69F600B790C6 /* Main.storyboard */,
+				9D98824319BC69CA00B790C6 /* Images.xcassets */,
+				9D98823A19BC69CA00B790C6 /* Supporting Files */,
+			);
+			name = Source;
+			path = demo;
+			sourceTree = "<group>";
+		};
+		9D98823A19BC69CA00B790C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D25870519BCCB0F00A55A18 /* Info.plist */,
+				EA57899F1B20C5B100A9F7D1 /* almost_nailed_it.gif */,
+				9D25870619BCCB0F00A55A18 /* mugen.gif */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA5789A21B20C65800A9F7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5789A61B20C65800A9F7D1 /* Gifu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA92992C1AE9AB2100E22976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5789A11B20C65800A9F7D1 /* Gifu.xcodeproj */,
+				EA9299281AE99E2900E22976 /* Runes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D98823619BC69CA00B790C6 /* gifu-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D98825319BC69CA00B790C6 /* Build configuration list for PBXNativeTarget "gifu-demo" */;
+			buildPhases = (
+				9D98823319BC69CA00B790C6 /* Sources */,
+				9D98823419BC69CA00B790C6 /* Frameworks */,
+				9D98823519BC69CA00B790C6 /* Resources */,
+				00B8C7331A364D4C00C188E7 /* Embed Frameworks */,
+				EA92992B1AE99E5600E22976 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5789AB1B20C68B00A9F7D1 /* PBXTargetDependency */,
+			);
+			name = "gifu-demo";
+			productName = "gifu-demo";
+			productReference = 9D98823719BC69CA00B790C6 /* gifu-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D98822F19BC69CA00B790C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kaishin & Co";
+				TargetAttributes = {
+					9D98823619BC69CA00B790C6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 9D98823219BC69CA00B790C6 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D98822E19BC69CA00B790C6;
+			productRefGroup = 9D98823819BC69CA00B790C6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA5789A21B20C65800A9F7D1 /* Products */;
+					ProjectRef = EA5789A11B20C65800A9F7D1 /* Gifu.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9D98823619BC69CA00B790C6 /* gifu-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EA5789A61B20C65800A9F7D1 /* Gifu.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Gifu.framework;
+			remoteRef = EA5789A51B20C65800A9F7D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D98823519BC69CA00B790C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5789A01B20C5B100A9F7D1 /* almost_nailed_it.gif in Resources */,
+				9D98824419BC69CA00B790C6 /* Images.xcassets in Resources */,
+				9D25870819BCCB0F00A55A18 /* mugen.gif in Resources */,
+				9D98825A19BC69F600B790C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA92992B1AE99E5600E22976 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/Runes.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D98823319BC69CA00B790C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D98823F19BC69CA00B790C6 /* ViewController.swift in Sources */,
+				9D98823D19BC69CA00B790C6 /* AppDelegate.swift in Sources */,
+				9D98826719BC874C00B790C6 /* FlatButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5789AB1B20C68B00A9F7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gifu;
+			targetProxy = EA5789AA1B20C68B00A9F7D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D98825119BC69CA00B790C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D98825219BC69CA00B790C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D98825419BC69CA00B790C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D98825519BC69CA00B790C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D98823219BC69CA00B790C6 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D98825119BC69CA00B790C6 /* Debug */,
+				9D98825219BC69CA00B790C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D98825319BC69CA00B790C6 /* Build configuration list for PBXNativeTarget "gifu-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D98825419BC69CA00B790C6 /* Debug */,
+				9D98825519BC69CA00B790C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D98822F19BC69CA00B790C6 /* Project object */;
+}

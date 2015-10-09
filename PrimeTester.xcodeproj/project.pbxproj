@@ -13,6 +13,10 @@
 		1B04C5E11BAFFAC300A4FF65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B04C5E01BAFFAC300A4FF65 /* Images.xcassets */; };
 		1B04C5E41BAFFAC300A4FF65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B04C5E21BAFFAC300A4FF65 /* LaunchScreen.xib */; };
 		1B04C5F01BAFFAC300A4FF65 /* PrimeTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B04C5EF1BAFFAC300A4FF65 /* PrimeTesterTests.swift */; };
+		1B2EE3D11BB9B7780012F92F /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1B2EE3D01BB9B7780012F92F /* sad.gif */; settings = {ASSET_TAGS = (); }; };
+		1B2EE3D31BB9B9C60012F92F /* sad2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1B2EE3D21BB9B9C60012F92F /* sad2.gif */; settings = {ASSET_TAGS = (); }; };
+		1B2EE3D51BB9BA820012F92F /* smile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2EE3D41BB9BA820012F92F /* smile.jpeg */; settings = {ASSET_TAGS = (); }; };
+		1B2EE3E71BB9BD3B0012F92F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2EE3E01BB9BD3B0012F92F /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		1B04C5E91BAFFAC300A4FF65 /* PrimeTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B04C5EE1BAFFAC300A4FF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B04C5EF1BAFFAC300A4FF65 /* PrimeTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTesterTests.swift; sourceTree = "<group>"; };
+		1B2EE3D01BB9B7780012F92F /* sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad.gif; sourceTree = "<group>"; };
+		1B2EE3D21BB9B9C60012F92F /* sad2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad2.gif; sourceTree = "<group>"; };
+		1B2EE3D41BB9BA820012F92F /* smile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile.jpeg; sourceTree = "<group>"; };
+		1B2EE3E01BB9BD3B0012F92F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "gifu-master/Source/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +87,12 @@
 			children = (
 				1B04C5D91BAFFAC300A4FF65 /* AppDelegate.swift */,
 				1B04C5DB1BAFFAC300A4FF65 /* ViewController.swift */,
+				1B2EE3D21BB9B9C60012F92F /* sad2.gif */,
 				1B04C5DD1BAFFAC300A4FF65 /* Main.storyboard */,
+				1B2EE3E01BB9BD3B0012F92F /* Info.plist */,
+				1B2EE3D41BB9BA820012F92F /* smile.jpeg */,
 				1B04C5E01BAFFAC300A4FF65 /* Images.xcassets */,
+				1B2EE3D01BB9B7780012F92F /* sad.gif */,
 				1B04C5E21BAFFAC300A4FF65 /* LaunchScreen.xib */,
 				1B04C5D71BAFFAC300A4FF65 /* Supporting Files */,
 			);
@@ -156,6 +168,8 @@
 		1B04C5CC1BAFFAC300A4FF65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
@@ -192,9 +206,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2EE3E71BB9BD3B0012F92F /* Info.plist in Resources */,
+				1B2EE3D31BB9B9C60012F92F /* sad2.gif in Resources */,
 				1B04C5DF1BAFFAC300A4FF65 /* Main.storyboard in Resources */,
 				1B04C5E41BAFFAC300A4FF65 /* LaunchScreen.xib in Resources */,
 				1B04C5E11BAFFAC300A4FF65 /* Images.xcassets in Resources */,
+				1B2EE3D51BB9BA820012F92F /* smile.jpeg in Resources */,
+				1B2EE3D11BB9B7780012F92F /* sad.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +423,7 @@
 				1B04C5F51BAFFAC300A4FF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B04C5F61BAFFAC300A4FF65 /* Build configuration list for PBXNativeTarget "PrimeTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +432,7 @@
 				1B04C5F81BAFFAC300A4FF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
