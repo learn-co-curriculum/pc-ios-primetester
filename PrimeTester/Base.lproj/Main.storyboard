@@ -52,8 +52,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kli-ue-P4Z">
-                                <rect key="frame" x="149" y="332" width="240" height="128"/>
+                                <rect key="frame" x="149" y="420" width="240" height="128"/>
                             </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9o-a5-CWV" userLabel="PickerView">
+                                <rect key="frame" x="0.0" y="241" width="365" height="141"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
@@ -75,10 +78,12 @@
                         <outlet property="answerLabel" destination="H5H-MH-n1P" id="imk-XI-h2X"/>
                         <outlet property="enteredValue" destination="6on-F8-7VA" id="LX2-vv-bZY"/>
                         <outlet property="imageOutput" destination="kli-ue-P4Z" id="TBC-XE-wLP"/>
+                        <outlet property="pickerVIew" destination="P9o-a5-CWV" id="sfD-Zo-K8v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="323" y="285"/>
         </scene>
     </scenes>
 </document>
