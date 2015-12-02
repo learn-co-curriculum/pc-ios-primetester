@@ -17,3 +17,5 @@ Nice, so you stripped it out into it's own method. Now, let's make this game a l
 You should allow the user of your app to choose between two games they want to play, enter a number, and give the correct feedback depending on the game they're playing. For example, if you enter *6* into the textfield, and the prime tester game is selected, you should give feedback that the number is not prime. However, if the user now selects to play the even tester game, when they re-hit "submit" you should give feedback that the number is even and therefore they have won the game.
 
 I would recommend looking into using a [UIPickerView](http://sourcefreeze.com/ios-uipickerview-example-using-swift/) for this, but there are a million ways you could do this, so don't feel constrained to that. Don't forget to use your lessons about wireframing and psuedocoding before starting this exercise! Good luck!
+
+<a href='https://learn.co/lessons/pc-ios-primetester' data-visibility='hidden'>View this lesson on Learn.co</a>
