@@ -18,4 +18,4 @@ You should allow the user of your app to choose between two games they want to p
 
 I would recommend looking into using a [UIPickerView](http://sourcefreeze.com/ios-uipickerview-example-using-swift/) for this, but there are a million ways you could do this, so don't feel constrained to that. Don't forget to use your lessons about wireframing and psuedocoding before starting this exercise! Good luck!
 
-<a href='https://learn.co/lessons/pc-ios-primetester' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/pc-ios-primetester' title='Prime Tester App'>Prime Tester App</a> on Learn.co and start learning to code for free.</p>
